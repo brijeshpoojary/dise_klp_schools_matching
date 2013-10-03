@@ -16,13 +16,6 @@ sdist
 develop-eggs
 .installed.cfg
 lib64
-config
-logs
-yui
-web
-*.ini
-*.~
-*.tar
 
 # Installer logs
 pip-log.txt
@@ -39,3 +32,13 @@ nosetests.xml
 .mr.developer.cfg
 .project
 .pydevproject
+
+# Logs
+logs/
+.log
+
+# Temp files
+*~
+
+# Settings file
+settings.py
